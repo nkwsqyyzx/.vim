@@ -19,3 +19,6 @@
 [submodule "bundle/Align"]
 	path = bundle/Align
 	url = https://github.com/vim-scripts/Align.git
+[submodule "bundle/cmdlinecompletion"]
+	path = bundle/cmdlinecompletion
+	url = https://github.com/vim-scripts/cmdline-completion.git
