@@ -22,3 +22,6 @@
 [submodule "bundle/cmdlinecompletion"]
 	path = bundle/cmdlinecompletion
 	url = https://github.com/vim-scripts/cmdline-completion.git
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = http://github.com/tpope/vim-fugitive.git
