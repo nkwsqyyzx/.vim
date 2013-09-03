@@ -22,9 +22,6 @@
 [submodule "bundle/AutoClose"]
 	path = bundle/AutoClose
 	url = https://github.com/vim-scripts/AutoClose.git
-[submodule "bundle/minibufexpl"]
-	path = bundle/minibufexpl
-	url = https://github.com/vim-scripts/minibufexpl.vim.git
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
