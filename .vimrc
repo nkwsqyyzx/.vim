@@ -19,3 +19,7 @@ language message en.UTF-8
 if !has('gui')
     colorschem desert
 endif
+
+map <C-S-F> :FufFile<CR>
+map <C-S-B> :FufBuffer<CR>
+map <C-S-J> :FufJumpList<CR>
