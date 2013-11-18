@@ -43,3 +43,6 @@
 [submodule "bundle/L9"]
 	path = bundle/L9
 	url = https://github.com/eparreno/L9.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/bling/vim-airline.git
