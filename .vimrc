@@ -9,7 +9,7 @@ source ~/.vim/bundle/vimrc-wsq/vimrc_wsq.vim
 
 cd ~
 
-set wrap
+set nowrap
 set autochdir
 set langmenu=en_US.UTF-8
 source $VIMRUNTIME/delmenu.vim
