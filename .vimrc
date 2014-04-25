@@ -38,10 +38,13 @@ cd ~
 
 set nowrap
 set autochdir
-set langmenu=en_US.UTF-8
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
-language message en.UTF-8
+
+if !has('mac')
+    set langmenu=en_US.UTF-8
+    language message en.UTF-8
+endif
 
 if !has('gui')
     colorschem desert
