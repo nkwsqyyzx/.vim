@@ -25,7 +25,6 @@ Bundle 'scrooloose/nerdtree'
 "..................................
 " vim-scripts repos
 Bundle 'YankRing.vim'
-Bundle 'vcscommand.vim'
 Bundle 'SudoEdit.vim'
 Bundle 'EasyGrep'
 Bundle 'argtextobj.vim'
