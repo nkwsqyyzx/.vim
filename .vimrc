@@ -11,7 +11,6 @@ Bundle 'gmarik/vundle'
 " original repos on github
 Bundle 'L9'
 Bundle 'FuzzyFinder'
-Bundle 'kien/ctrlp.vim'
 Bundle 'sukima/xmledit'
 Bundle 'sjl/gundo.vim'
 Bundle 'jiangmiao/auto-pairs'
@@ -29,8 +28,6 @@ Bundle 'YankRing.vim'
 Bundle 'vcscommand.vim'
 Bundle 'SudoEdit.vim'
 Bundle 'EasyGrep'
-Bundle 'VOoM'
-Bundle 'VimIM'
 Bundle 'argtextobj.vim'
 "..................................
 " non github repos
