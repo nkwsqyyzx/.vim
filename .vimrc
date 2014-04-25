@@ -23,6 +23,10 @@ Bundle 'nkwsqyyzx/vimrc'
 Bundle 'bling/vim-airline'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-fugitive'
+Bundle 'altercation/vim-colors-solarized'
+" use solarized colorscheme
+colorscheme solarized
+
 "..................................
 " vim-scripts repos
 Bundle 'YankRing.vim'
@@ -45,8 +49,4 @@ source $VIMRUNTIME/menu.vim
 if !has('mac')
     set langmenu=en_US.UTF-8
     language message en.UTF-8
-endif
-
-if !has('gui')
-    colorschem desert
 endif
