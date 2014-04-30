@@ -16,7 +16,6 @@ Bundle 'sjl/gundo.vim'
 Bundle 'jiangmiao/auto-pairs'
 Bundle 'klen/python-mode'
 Bundle 'Valloric/ListToggle'
-Bundle 'SirVer/ultisnips'
 Bundle 't9md/vim-quickhl'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'nkwsqyyzx/vimrc'
@@ -24,6 +23,7 @@ Bundle 'bling/vim-airline'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-fugitive'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'hynek/vim-python-pep8-indent'
 " use solarized colorscheme
 colorscheme solarized
 
