@@ -24,8 +24,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-fugitive'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'hynek/vim-python-pep8-indent'
-" use solarized colorscheme
-colorscheme solarized
+Bundle 'mileszs/ack.vim'
 
 "..................................
 " vim-scripts repos
@@ -50,3 +49,6 @@ if !has('mac')
     set langmenu=en_US.UTF-8
     language message en.UTF-8
 endif
+
+set background=dark
+colorscheme solarized
