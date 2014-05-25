@@ -34,6 +34,7 @@ Bundle 'SudoEdit.vim'
 Bundle 'EasyGrep'
 Bundle 'argtextobj.vim'
 Bundle 'ctags.vim'
+Bundle 'CmdlineComplete'
 "..................................
 " non github repos
 " Bundle 'git://git.wincent.com/command-t.git'
