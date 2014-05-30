@@ -26,6 +26,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'hynek/vim-python-pep8-indent'
 Bundle 'mileszs/ack.vim'
+Bundle 'Lokaltog/vim-easymotion'
 
 "..................................
 " vim-scripts repos
@@ -36,9 +37,6 @@ Bundle 'argtextobj.vim'
 Bundle 'ctags.vim'
 Bundle 'CmdlineComplete'
 "..................................
-" non github repos
-" Bundle 'git://git.wincent.com/command-t.git'
-"......................................
 
 cd ~
 
@@ -54,3 +52,7 @@ endif
 
 set background=dark
 colorscheme solarized
+
+if !has('gui_running')
+    colorscheme default
+endif
