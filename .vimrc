@@ -36,6 +36,7 @@ Bundle 'EasyGrep'
 Bundle 'argtextobj.vim'
 Bundle 'ctags.vim'
 Bundle 'CmdlineComplete'
+Bundle 'Align'
 "..................................
 
 cd ~
