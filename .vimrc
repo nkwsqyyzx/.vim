@@ -4,7 +4,7 @@ set rtp+=~/.vim/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
-Bundle 'gmarik/vundle'
+Bundle 'nkwsqyyzx/vundle'
 
 "my Bundle here:
 "
