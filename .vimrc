@@ -44,7 +44,7 @@ set autochdir
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 
-if !has('mac')
+if !has('mac') && has('gui_running')
     set langmenu=en_US.UTF-8
     language message en.UTF-8
 endif
