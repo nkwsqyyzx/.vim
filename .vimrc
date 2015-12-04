@@ -25,6 +25,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'mileszs/ack.vim'
 Bundle 'Lokaltog/vim-easymotion'
+Bundle 'tacahiroy/ctrlp-funky'
 
 "..................................
 " vim-scripts repos
