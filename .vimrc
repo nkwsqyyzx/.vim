@@ -1,42 +1,46 @@
 set nocompatible                " be iMproved
 filetype off                    " required!
-set rtp+=~/.vim/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
 
 " let Vundle manage Vundle
-Bundle 'nkwsqyyzx/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
-"my Bundle here:
+"my Plugin here:
 "
 " original repos on github
-Bundle 'L9'
-Bundle 'FuzzyFinder'
-Bundle 'sukima/xmledit'
-Bundle 'sjl/gundo.vim'
-Bundle 'jiangmiao/auto-pairs'
-Bundle 'kien/ctrlp.vim'
-Bundle 'Valloric/ListToggle'
-Bundle 't9md/vim-quickhl'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'nkwsqyyzx/vimrc'
-Bundle 'bling/vim-airline'
-Bundle 'scrooloose/nerdtree'
-Bundle 'tpope/vim-fugitive'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'mileszs/ack.vim'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'tacahiroy/ctrlp-funky'
+Plugin 'L9'
+Plugin 'FuzzyFinder'
+Plugin 'sukima/xmledit'
+Plugin 'sjl/gundo.vim'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'kien/ctrlp.vim'
+Plugin 'Valloric/ListToggle'
+Plugin 't9md/vim-quickhl'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'nkwsqyyzx/vimrc'
+Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-fugitive'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'mileszs/ack.vim'
+Plugin 'wellle/targets.vim'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'tacahiroy/ctrlp-funky'
+Plugin 'msanders/cocoa.vim'
 
 "..................................
 " vim-scripts repos
-Bundle 'YankRing.vim'
-Bundle 'SudoEdit.vim'
-Bundle 'EasyGrep'
-Bundle 'argtextobj.vim'
-Bundle 'ctags.vim'
-Bundle 'CmdlineComplete'
-Bundle 'Align'
+Plugin 'YankRing.vim'
+Plugin 'SudoEdit.vim'
+Plugin 'EasyGrep'
+Plugin 'argtextobj.vim'
+Plugin 'ctags.vim'
+Plugin 'CmdlineComplete'
+Plugin 'Align'
 "..................................
+
+call vundle#end()
 
 cd ~
 
