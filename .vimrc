@@ -14,12 +14,11 @@ Plugin 'L9'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'kien/ctrlp.vim'
 Plugin 'klen/python-mode'
 Plugin 'mileszs/ack.vim'
 Plugin 'msanders/cocoa.vim'
-Plugin 'nkwsqyyzx/vimrc'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'sjl/gundo.vim'
@@ -41,6 +40,8 @@ Plugin 'ctags.vim'
 Plugin 'CmdlineComplete'
 Plugin 'Align'
 "..................................
+
+Plugin 'nkwsqyyzx/vimrc'
 
 call vundle#end()
 
