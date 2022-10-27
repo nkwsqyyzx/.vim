@@ -6,6 +6,9 @@ call vundle#begin()
 " let Vundle manage Vundle
 Plugin 'gmarik/vundle'
 
+let g:Lf_GtagsAutoGenerate = 1
+let g:Lf_Gtagslabel = 'native-pygments'
+
 "my Plugin here:
 "
 " original repos on github
